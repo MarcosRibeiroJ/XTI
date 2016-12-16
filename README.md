@@ -1,1 +1,1 @@
-# XTI
+# Esse repositório será utilizado para as aulas do curso de Java da Universidade XTI
