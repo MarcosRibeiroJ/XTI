@@ -107,5 +107,22 @@
 		String n = (idade >= 18 ? "Maior de Idade" : "Menor de Idade");//Operador ternario ... regra ? (Entao) : (Senao)
 		System.out.println(n);
 		
+		/** ### Aula 18 - Calculo de diametro, circunferencia e area de um circulo###*/
+		
+		//Diametro = 2 * r
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("Digite o valor do Raio: ");
+		double raio = s.nextDouble();
+		System.out.println("\nO diametro eh: " + (2 * raio));
+		
+		//Circunferencia = 2 * PI * r
+		
+		double pi = Math.PI;
+		System.out.println("\nA circunferencia eh: " + (2 * pi * raio));
+		
+		//Area = PI * r2
+		
+		System.out.println("\nA area eh: " + (pi * (raio * raio)));
 	}
  }
