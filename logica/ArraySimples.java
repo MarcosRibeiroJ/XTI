@@ -1,9 +1,10 @@
 /**
- *Basico de Arrays : Classe, inicializacao, ordenar, pesquisar e acessar metodo
+ *Basico de Arrays : Classe, inicializacao, ordenar, pesquisar e acessar metodo, matriz
  *@author Marcos Ribeiro
  */
  
 import java.util.Arrays;
+import java.util.Random;
 
  public class ArraySimples {
  
@@ -40,6 +41,33 @@ import java.util.Arrays;
 		//Acessando um metodo dentro de um array
 		Double[] valores = {12.35, 345.345};
 		System.out.println(valores[0].intValue());
+		
+		/**Dimensoes de um array*/
+		
+		//Uma dimensao
+		String[] uma = {"Ricardo", "Sandra"};
+		
+		
+		//Duas dimensoes
+		String[][] duas = {{"Ricardo", "M", "DF"}, {"Sandra", "F", "MG"}};
+		System.out.println(duas[1][0]);
+		
+		//Programa para selecionar carta de baralho
+		String[] faces = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "K", "Q", "J"};
+		String[] nipes = {"Espadas", "Paus", "Copas", "Ouro"};
+		
+		
+		Random r = new Random(); //criando um objeto da classe de aleatorios
+		
+		int indiceFace = r.nextInt(faces.length);//criando uma variavel de inteiro para o indice do array, usando como tamanho maximo o tamanho do array de faces
+		String face = faces[indiceFace];//atribuindo a uma string o valor da face de acordo com o indice aleatorio
+		
+		int indiceNipe = r.nextInt(nipes.length);//criando uma variavel de inteiro para o indice do array, usando como tamanho maximo o tamanho do array de nipes
+		String nipe = nipes[indiceNipe];//atribuindo a uma string o valor do nipe de acordo com o indice aleatorio
+				
+		String carta = face + " " + nipe;//atribuindo a uma string o valor da face aleatoria e do nipe aleatorio
+		
+		System.out.println(carta);
 	}
  
  }
