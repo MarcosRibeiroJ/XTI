@@ -5,6 +5,7 @@
  
 import java.util.Arrays;
 import java.util.Random;
+import java.util.ArrayList;
 
  public class ArraySimples {
  
@@ -42,7 +43,7 @@ import java.util.Random;
 		Double[] valores = {12.35, 345.345};
 		System.out.println(valores[0].intValue());
 		
-		/**Dimensoes de um array*/
+		/**Aula 21 - Dimensoes de um array*/
 		
 		//Uma dimensao
 		String[] uma = {"Ricardo", "Sandra"};
@@ -68,6 +69,22 @@ import java.util.Random;
 		String carta = face + " " + nipe;//atribuindo a uma string o valor da face aleatoria e do nipe aleatorio
 		
 		System.out.println(carta);
+		
+		/**Aula 22 - ArrayList*/
+		
+		ArrayList<String> cores = new ArrayList<String>();//criando um objeto do tipo ArrayList
+		cores.add("Branco");//adicionando cor
+		cores.add(0, "Vermelho");//adicionando cor na primeira posicao do array
+		cores.add("Amarelo");//adicionando cor
+		cores.add("Azul");//adicionando cor
+		System.out.println("ArrayList de cores: " + cores.toString());//transformando o array em uma unica string
+		System.out.println("Tamanho do ArrayList de cores: " + cores.size());//tamanho do array
+		System.out.println("Cor da Terceira posicao: " + cores.get(2));//imprimir um elemento especifico de acordo com o indice
+		System.out.println("Numero do indice da cor Branca: " + cores.indexOf("Branco"));//pesquisar a posicao de um elemento do array
+		System.out.println("Contem a cor amarela no array: " + cores.contains("Amarelo"));//pesquisar se um elemento existe no array
+		cores.remove("Azul");//removendo a cor azul do array
+		System.out.println("ArrayList de cores: " + cores.toString());//transformando o array em uma unica string
+		
 	}
  
  }
