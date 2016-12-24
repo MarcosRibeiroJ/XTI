@@ -50,6 +50,42 @@
 				System.out.println ("Mas pode fazer a recuperacao");
 			}
 		}
+		
+		/**Aula 24 - Switch case*/
+		
+		
+		//Exemplo 1: De acordo com o sexo imprimir uma mensagem na tela
+		char sexo = 'M';
+		
+		switch (sexo) {
+			case 'M':
+				System.out.println("Macho");
+				break;
+			case 'F':
+				System.out.println("Femea");
+				break;
+			default:
+				System.out.println("Outro");
+		}
+		
+		//Exemplo 2: Tipos de Tecnologia
+		
+		String tecnologia = "postgresql";
+		
+		switch (tecnologia) {
+			case "java":
+			case "c++":
+			case "cobol":
+				System.out.println("Linguagem de Programacao");
+				break;
+			case "oracle":
+			case "sqlserver":
+			case "postgresql":
+				System.out.println("Banco de Dados");
+				break;
+			default:
+				System.out.println("Tecnologia desconhecida");
+		}
 	
-	}
- }
+	}//fim do metodo main
+ }//fim da classe
