@@ -1,9 +1,10 @@
 /**
- * Estruturas de repeticao: For
+ * Estruturas de repeticao: For, Foreach, While e Do While
  *@author Marcos Ribeiro
  */
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
  public class LacodeRepeticao {
  
@@ -75,6 +76,39 @@ import java.util.ArrayList;
 			System.out.println(numero);
 		}
 		
+		/**Aula 28 - While e Do While*/
+		
+		System.out.println("\n\n Aula 28\n");
+		
+		
+		//Exemplo 1
+		int i = 3;
+		while (i < 2){
+			System.out.println(i);
+			i++;
+		}
+		
+		//Exemplo 2 com do while
+		
+		do {
+			System.out.println(i);
+			i++;
+		} while (i < 2);
+		
+		//Exemplo 3: Receber uma lista de produtos digitados pelo usuario e qndo o usuario digitar fim o programa imprime a lista na tela
+		
+		ArrayList<String> produtos = new ArrayList<String>();
+		Scanner s = new Scanner(System.in);
+		
+		String produto;
+		
+		System.out.println("Bem Vindo ao sistema de cadastro\n");
+		System.out.println("Favor digitar um produto ou fim para finalizar: ");
+		
+		while(!"fim".equals(produto = s.nextLine())){ //enquanto produto digitado nao for igual a palavra fim ...
+			produtos.add(produto);
+		}
+		System.out.println("Lista de Pordutos Cadastrados: " + produtos.toString());
 		
 	}//fim do metodo main
 }//fim da classe
