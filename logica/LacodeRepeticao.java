@@ -3,7 +3,9 @@
  *@author Marcos Ribeiro
  */
 
-public class LacodeRepeticao {
+import java.util.ArrayList;
+
+ public class LacodeRepeticao {
  
 	public static void main (String[] args) {
 	
@@ -46,6 +48,33 @@ public class LacodeRepeticao {
 			}
 			System.out.print("\n");
 		}
+		
+		
+		/**Aula 27 - Foreach*/
+		
+		System.out.println("\n\n Aula 27\n");
+		
+		//Exemplo 1: percorrer e imprimir elementos de um array
+		int[] pares = {2, 4, 6, 8};
+		for(int i = 0; i < pares.length; i++){
+			int par = pares[i];
+			System.out.println(par);
+		}
+		
+		//Exemplo 2: percorrer e imprimir elementos de um array, utilizando foreach
+		for(int par : pares){ //para cada elemento do array fazer ...
+			System.out.println(par);
+		}
+		
+		//Exemplo 3: Preencher um array list com numeros e imprimir
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		for (int i = 0; i < 10; i++){
+			list.add(i);
+		}
+		for(Integer numero : list){
+			System.out.println(numero);
+		}
+		
 		
 	}//fim do metodo main
 }//fim da classe
