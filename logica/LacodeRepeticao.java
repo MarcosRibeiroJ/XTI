@@ -10,6 +10,10 @@ import java.util.Scanner;
  
 	public static void main (String[] args) {
 	
+		/**Aula 26 - For*/
+		
+		System.out.println("\n\n Aula 26\n");
+		
 		//Exemplo 1		
 		for(int i=0; i < 3; i++){
 			System.out.println(i);
@@ -109,6 +113,55 @@ import java.util.Scanner;
 			produtos.add(produto);
 		}
 		System.out.println("Lista de Pordutos Cadastrados: " + produtos.toString());
+		
+		/**Aula 30 - Break, Continue e Rotulos*/
+		
+		System.out.println("\n\nAula 30\n");
+		
+		//Exemplo 1: Parando um loop infinito
+		
+		while(true) {
+			System.out.println("Entrou");
+			break;//parando o loop
+		}
+		
+		//Exemplo 2: Diferenca de break e continue
+		
+		for(int m = 0; m < 10; m++){
+			if(m == 5){
+				break;
+			}
+			System.out.println(m);
+		}
+		System.out.println("\n\n");
+		for(int m = 0; m < 10; m++){
+			if(m == 5){
+				continue;
+			}
+			System.out.println(m);
+		}
+		
+		//Exemplo 3: Usando rotulos na repeticao (rotulo eh um nome dado a um determinado loop, serve para poder interagir com um laco mais externo)
+		
+		System.out.println("\n\n");
+		boolean[][] matriz =
+		{
+			{false, true, false, false, false},
+			{false, false, false, false, false}
+		};
+		
+		linha: // adicionei um rotulo para o laco que percorre as linhas da matriz
+		for (int a = 0; a < matriz.length; a++){
+			System.out.print("A ");
+			coluna: //adicionei um rotulo para o laco que percorre as colunas de uma matriz
+			for (int b = 0; b < matriz[a].length; b++){
+				if(matriz[a][b]){
+					System.out.print("TRUE ");
+					break linha; //aqui estou pedindo para ele parar a busca completa da matriz, considerando que ele nao ira mais para a linha de baixo assim que achar o elemento procurado
+				}
+				System.out.print("B ");
+			}
+		}
 		
 	}//fim do metodo main
 }//fim da classe

@@ -1,9 +1,9 @@
 /**
- *Basico de Tomada de Decisao : Se, Entao, Senao Se, Senao
+ *Basico de Tomada de Decisao : Se, Entao, Senao Se, Senao e switch
  *@author Marcos Ribeiro
  */
 
- public class Fluxo {
+public class Fluxo {
  
 	public static void main (String[] args) {
 		
@@ -53,6 +53,8 @@
 		
 		/**Aula 24 - Switch case*/
 		
+		System.out.println("\n\nAula 24\n");
+		
 		
 		//Exemplo 1: De acordo com o sexo imprimir uma mensagem na tela
 		char sexo = 'M';
@@ -86,6 +88,6 @@
 			default:
 				System.out.println("Tecnologia desconhecida");
 		}
-	
+		
 	}//fim do metodo main
  }//fim da classe
