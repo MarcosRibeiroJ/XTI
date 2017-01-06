@@ -1,3 +1,4 @@
+package br.com.xti.poo;
 /**
  * Primeiro teste de criacao de uma classe
  *@author Marcos Ribeiro

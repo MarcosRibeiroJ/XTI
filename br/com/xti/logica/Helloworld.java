@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
 *Programa imprime mensagem e utiliza algumas sequencias de escape conforme abaixo:
 

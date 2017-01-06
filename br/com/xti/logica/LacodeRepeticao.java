@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  * Estruturas de repeticao: For, Foreach, While e Do While
  *@author Marcos Ribeiro

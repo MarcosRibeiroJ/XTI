@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  *Trabalho com operadores (operador e operando, operadores matematicos, operadores de comparacao, operadores logicos, operadores de atribuicao, operadores especiais)
  *@author Marcos Ribeiro

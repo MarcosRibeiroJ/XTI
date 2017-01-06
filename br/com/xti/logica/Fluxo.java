@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  *Basico de Tomada de Decisao : Se, Entao, Senao Se, Senao e switch
  *@author Marcos Ribeiro

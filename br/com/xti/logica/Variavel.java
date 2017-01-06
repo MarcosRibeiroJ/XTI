@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  *Apresentar os conceitos de variavel
  * @author Marcos Ribeiro

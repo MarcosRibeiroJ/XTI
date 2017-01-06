@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  * Empacotar e Desempacotar (AutoBoxing)
  *@author Marcos Ribeiro

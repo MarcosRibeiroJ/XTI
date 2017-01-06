@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  * Exercicio para imprimir a sequencia de Fibonacci
  *@author Marcos Ribeiro

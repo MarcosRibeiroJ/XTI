@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  *Calcular o IMC (Indice de Massa Comporal)
  *IMC = pesoEmQuilogramas / (alturaEmMetros * alturaEmMetros)

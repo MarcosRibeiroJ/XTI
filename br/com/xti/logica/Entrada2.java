@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  *Recuperar de dados que o usuario digita utilizando a classe JOptionPane
  *@author Marcos Ribeiro

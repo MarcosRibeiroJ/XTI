@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  *Basico de Arrays : Classe, inicializacao, ordenar, pesquisar e acessar metodo, matriz
  *@author Marcos Ribeiro

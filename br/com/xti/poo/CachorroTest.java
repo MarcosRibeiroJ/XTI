@@ -1,3 +1,4 @@
+package br.com.xti.poo;
 /**
  * Classe para instanciar um objeto do tipo cachorro
  *@author Marcos Ribeiro

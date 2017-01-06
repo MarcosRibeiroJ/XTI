@@ -1,3 +1,4 @@
+package br.com.xti.logica;
 /**
  *Desafio: Jogo que pessoa da um palpite sobre um numero (0-6) e o programa retorna se a pessoa acertou ou errou
  *Utilizando a classe JOptionPane
