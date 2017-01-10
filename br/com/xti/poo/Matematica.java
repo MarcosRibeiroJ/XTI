@@ -24,5 +24,17 @@ public class Matematica {
 	double soma(double um, double dois) {
 		return um + dois;
 	}
+	
+	/**@return raiz quadrada aproximada, utilizando equacao de Pell*/
+	int raiz(int num) {
+		int i = 0;
+		for (int j = 1; j <= num; j++) {
+			if (j % 2 == 1) {
+				num -= j;
+				i++;
+            }
+        }
+		return i;
+	}
 
 }

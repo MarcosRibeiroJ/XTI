@@ -13,6 +13,13 @@ public class MatematicaTest {
 		
 		double soma = m.soma(m.maior(2, 4), m.maior(3, 5));
 		System.out.println(soma);
+		
+		// raiz quadrada aproximada, utilizando equacao de Pell
+		int raiz = m.raiz(276);
+		System.out.println(raiz);
+		
+		//raiz quadrada com maior precisao, utilizando a classe Math.sqrt
+		System.out.println(Math.sqrt(276));
 
 	}
 
