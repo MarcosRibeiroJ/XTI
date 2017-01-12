@@ -25,6 +25,14 @@ public class Matematica {
 		return um + dois;
 	}
 	
+	double somaIlimitado(double ... numeros) {
+		double total = 0;
+		for(double numero : numeros) {
+			total += numero;
+		}
+		return total;
+	}
+	
 	/**@return raiz quadrada aproximada, utilizando equacao de Pell*/
 	int raiz(int num) {
 		int i = 0;
