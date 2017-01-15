@@ -2,7 +2,10 @@ package br.com.xti.heranca;
 
 /**
  * Classe Animal eh uma super classe, seus filhos irao herdar todos os seus atributos e metodos
- * Essa classe eh uma classe abstrata porque possui informacoes basicas que devem ser sobrescritas diretamente pelas classes filhas 
+ * Essa classe eh uma classe abstrata porque possui informacoes basicas que devem ser sobrescritas diretamente pelas classes filhas
+ * Eh possivel adicionar o modificador final na classe ou nos metodos
+ * Modificador final na classe impede que esta seja extendida a outras classes
+ * Modificador final em um metodo impede que este seja sobrescrito nas classes filhas 
  * @author Marcos Ribeiro
  */
 
