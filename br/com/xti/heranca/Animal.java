@@ -1,11 +1,12 @@
 package br.com.xti.heranca;
 
 /**
- * Classe Animal eh uma super classe, seus filhos irao herdar todos os seus atributos e metodos 
+ * Classe Animal eh uma super classe, seus filhos irao herdar todos os seus atributos e metodos
+ * Essa classe eh uma classe abstrata porque possui informacoes basicas que devem ser sobrescritas diretamente pelas classes filhas 
  * @author Marcos Ribeiro
  */
 
-public class Animal {
+public abstract class Animal {
 	
 	double peso;
 	String comida;
@@ -20,8 +21,6 @@ public class Animal {
 		System.out.println("Dormiu!");
 	}
 	
-	void fazerBarulho() {
-		System.out.println("Fazer Barulho");
-	}
+	abstract void fazerBarulho(); //metodo fazer barulho deve ser obrigatoriamente sobrescrito pelas classes filhas
 
 }//fim classe
