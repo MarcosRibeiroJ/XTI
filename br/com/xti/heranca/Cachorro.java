@@ -7,5 +7,10 @@ package br.com.xti.heranca;
  */
 
 public class Cachorro extends Animal {
+	
+	//Construtor padrao da classe, usamos o super para acessar o construtor padrao da super classe Animal e ja passar os dois parametros necessarios
+	public Cachorro() {
+		super(30, "Carne");
+	}
 
 }

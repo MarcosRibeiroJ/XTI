@@ -10,6 +10,12 @@ public class Animal {
 	double peso;
 	String comida;
 	
+	//Criado um construtor padrao para a super classe animal, esse construtor ja recebe os atributos da classe no parametro
+	public Animal(double peso, String comida) {
+		this.peso = peso;
+		this.comida = comida;
+	}
+	
 	void dormir() {
 		System.out.println("Dormiu!");
 	}
