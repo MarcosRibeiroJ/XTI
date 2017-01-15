@@ -12,5 +12,10 @@ public class Cachorro extends Animal {
 	public Cachorro() {
 		super(30, "Carne");
 	}
+	
+	//Criando um metodo de fazerBarulho especifico dessa classe
+	void fazerBarulho() {
+		System.out.println("Au, Au!");
+	}
 
 }

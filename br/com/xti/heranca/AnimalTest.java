@@ -7,6 +7,12 @@ package br.com.xti.heranca;
  */
 
 public class AnimalTest {
+	
+	//Metodo que recebe um objeto do tipo Animal e usando polimorfismo, 
+	//adapta qual metodo deve ser usado(o recebido na heranca da superclasse ou o interno da classe de cada animal)
+	public static void barulho(Animal animal) {
+		animal.fazerBarulho();
+	}
 
 	public static void main(String[] args) {
 		
@@ -28,6 +34,10 @@ public class AnimalTest {
 		System.out.println(toto.hashCode());//cria um hash code para um objeto
 		System.out.println(toto.getClass());//retorna a classe que o objeto pertence
 		System.out.println(toto.toString());//cria uma representacao da classe em string
+		
+		//Chamando o metodo barulho e passando como parametros os objetos cachorro e galinha
+		barulho(toto);
+		barulho(carijo);
 		
 
 	}//fim main
