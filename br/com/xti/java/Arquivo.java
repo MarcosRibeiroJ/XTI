@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 /**
  * Classe que apresenta os conceitos de criacao, leitura e escrita em arquivos pequenos
  * Para o exemplo apresentado abaixo, criamos um diretorio e um arquivo txt com o texto "Meu texto"
- * @author Markinho
+ * @author Marcos Ribeiro
  */
 
 public class Arquivo {
