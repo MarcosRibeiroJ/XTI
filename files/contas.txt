@@ -1,0 +1,7 @@
+Ricardo Lopes;12000.23
+Lawrence;11050.32
+Sandra;18000.21
+Beatriz;23200.09
+Veranda;1230.98
+Juliana;2345.89
+Caio Costa;432123.89
