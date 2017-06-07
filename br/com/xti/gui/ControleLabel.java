@@ -10,7 +10,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 /**
- * 
+ * Classe criada para apresentar o JLabel
+ * Utilizo 3 exemplos de JLabel, sendo um com texto simples, um com texto formatado e um com uma imagem
  * @author Marcos Ribeiro
  */
 
